@@ -12,6 +12,7 @@ This project deals with a Battery Management system (BMS)are used in many indust
 # Low level requirements
 1.	Use "Coulomb Counting Method" that measures the discharging current of a battery and integrates the discharging current over time in order to estimate SOC. 
 2.	To calculate SOC.
+3.	![image](https://user-images.githubusercontent.com/46984887/153280412-a7354aae-248d-4ba1-8e1c-c96bc611b6d0.png)
 # Objectives
 1.	To understand and calculate the SOC (state of charge) of the battery.
 2.	TO develop a mathematical model of the system to obtain the relevant equations.
