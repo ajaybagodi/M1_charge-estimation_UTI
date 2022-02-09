@@ -17,6 +17,7 @@ This project deals with a Battery Management system (BMS)are used in many indust
 2.	TO develop a mathematical model of the system to obtain the relevant equations.
 3.	To solve the model by Simpson’s 1/3rd rule.
 4.	To develop C program to obtain the desired result i.e the state of charge of the batter.
+
 # SWOT ANALYSIS
 # S-Strength
 •	BMS calculates SOC by tracking how much energy goes in and out of the battery pack and by monitoring cell voltages; capacity of battery,resistance, this value can bethought of as a fuel gauge indicating how much battery power is left in the pack.
@@ -29,14 +30,17 @@ This project deals with a Battery Management system (BMS)are used in many indust
 •	Complex in AC impedance.
 •	Sensitive to the amount and quality of training data.
 •	Open loop sensitive to the voltage sensor precision, unsuitable for cell with flat curves.
+
 # 4W’s and 1H
-Who:
+# Who:
 Charge estimation of the battery using BMS.
-Why: It will increase the life of the battery.
-What:
+# Why: 
+It will increase the life of the battery.
+# What:
 The purpose of this is to monitors and controls the charging and discharging of rechargeable batteries.
-Where: the monitoring system for battery powered electric vehicles (EV).
-How :
+# Where: 
+The monitoring system for battery powered electric vehicles (EV).
+# How :
 The industry will be get benefited by enhancement in estimation accuracy, a recalibration at full and empty states is carried out and an evaluation of the state of health was considered.
 
 
