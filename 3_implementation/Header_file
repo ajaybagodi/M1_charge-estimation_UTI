@@ -6,10 +6,15 @@
 //include files
 #include <stdio.h>
 
-
-float detrminant(float[25][25], float);
- void cofactors(float[25][25], float); 
- void trans(float[25][25], float[25][25], float);
-
+int Load_current(int Voc,float Load,int i_t)
+{
+i_t=Voc/Load;
+returni_t;
+}
+int Remaining_percentage(int SOCt1,float i_t,int MUn,float Time,int SOCt)
+{
+SOCt=SOCt1+(-(i_t/MUn)*Time)*100;
+return SOCt;
+}
  #endif
 
