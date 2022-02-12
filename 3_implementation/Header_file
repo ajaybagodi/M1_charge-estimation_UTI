@@ -1,1 +1,15 @@
+//Header Gaurd
+#ifndef code_H_
+#define code_H_ 
+
+
+//include files
+#include <stdio.h>
+
+
+float detrminant(float[25][25], float);
+ void cofactors(float[25][25], float); 
+ void trans(float[25][25], float[25][25], float);
+
+ #endif
 
