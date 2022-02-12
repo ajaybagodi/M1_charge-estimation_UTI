@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <math.h>
+#include <conio.h>
+#define MAX 10
+
+
 
 int main()
 {
