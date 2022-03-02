@@ -12,39 +12,50 @@ This project deals with a Battery Management system (BMS)are used in many indust
  
 	      
 # Low level requirements
-1.	Use "Coulomb Counting Method" that measures the discharging current of a battery and integrates the discharging current over time in order to estimate SOC. 
-2.		Estimation of soc is simple in coulomb counting
-3.		Prolongs life of battery (normal operating cases)
-4.	To calculate SOC.
-5.	![image](https://user-images.githubusercontent.com/46984887/153280412-a7354aae-248d-4ba1-8e1c-c96bc611b6d0.png)
+|ID |Description|Catogary|
+|----|----------|--------|
+|LL01|"Coulomb Counting Method" that measures the discharging current of a battery and integrates the discharging current over time in order to estimate SOC|Technical| 
+|LL02|Estimation of soc is simple in coulomb counting|Technical|
+|LL03|Prolongs life of battery (normal operating cases)|Technical|
+	
 # Objectives
+
 1.	To understand and calculate the SOC (state of charge) of the battery.
 2.	TO develop a mathematical model of the system to obtain the relevant equations.
 3.	To solve the model by Simpson’s 1/3rd rule.
 4.	To develop C program to obtain the desired result i.e the state of charge of the batter.
 
 # SWOT ANALYSIS
+
 # S-Strength
 •	BMS calculates SOC by tracking how much energy goes in and out of the battery pack and by monitoring cell voltages; capacity of battery,resistance, this value can bethought of as a fuel gauge indicating how much battery power is left in the pack.
+
 # W-Weakness
 •	Some phenomena, such as decreasing SOC,when the battery is resting, and variations with temperature changes,cannot be captured by the Coulomb counting method also.
+
 # O-Opportunity
 •	The coulomb counting method is one of the general and simple methods of estimating the soc. We use it for a baseline comparison for more advanced methods.
 •	The coulomb counting method measures the current of the battery and integrates the current over time to estimate SOC.
+
 # T-Threats
 •	Complex in AC impedance.
 •	Sensitive to the amount and quality of training data.
 •	Open loop sensitive to the voltage sensor precision, unsuitable for cell with flat curves.
 
 # 4W’s and 1H
+
 # Who:
 Charge estimation of the battery using BMS.
+
 # Why: 
 It will increase the life of the battery.
+
 # What:
 The purpose of this is to monitors and controls the charging and discharging of rechargeable batteries.
+
 # Where: 
 The monitoring system for battery powered electric vehicles (EV).
+
 # How :
 The industry will be get benefited by enhancement in estimation accuracy, a recalibration at full and empty states is carried out and an evaluation of the state of health was considered.
 
