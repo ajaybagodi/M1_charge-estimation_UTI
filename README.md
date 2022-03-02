@@ -2,6 +2,7 @@
 
 
 # Introduction
+Battery Management system (BMS)are used in many industrial and commercial systems to make the battery operation more efficient and for the estimation to keep the battery state, as long as possible, away from destructive state, to increase battery life time. For this purpose, many monitor techniques are used to monitor the battery state of charge, temperature and current. In the current project, the monitoring system for battery powered electric vehicles (EV) has been implementation tested. This system evaluates and displays the state of charge (SOC) for the considered model battery. The battery information and the obtained results explaining the main characteristics of the system are given by the LCD screen.
 
 
 
@@ -16,6 +17,6 @@ Folder             | Description
 -------------------| -----------------------------------------
 `1_Requirements`   | Documents detailing requirements 
 `2_Architecture`         | Documents specifying design details
-`3_Implementation` | All the code and documentation
-`4_Testplan`      | Documents with test plans and procedures
+`3_implementation` | All the code and documentation
+`4_Testplan&output`      | Documents with test plans and procedures
 
