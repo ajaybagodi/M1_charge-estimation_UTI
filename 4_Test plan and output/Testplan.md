@@ -12,3 +12,4 @@
 |LL02|Discharging| float value | Termination | Termination | Manual Test|
 
 
+# above functions have been tested and working accordingly
