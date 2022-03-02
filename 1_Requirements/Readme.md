@@ -3,19 +3,20 @@ This project deals with a Battery Management system (BMS)are used in many indust
 # Reqiurements
 
 # High level requirements
-|  ID  | Description                                                                                                  | Catogary |
+|  ID  | Description                                                                                           | Catogary |
 |------|--------|---------|
-|HLR01|     	Maintains battery in a state in which it can fulfill its functional design requirements.                   |Technical|
-| HLR02|	      Protects the safety of the battery operated devices and detects unsafe operating conditions and responds.|Technical|
-	|HLR03|     Protects cells of battery from damage in abuse/failure cases|technical|
- |HLR04|	      Prolongs life of battery (normal operating cases)|technical|
- |HLR05|	      BMS is to keep track the state of charge (SOC) of the battery|technical|
- |HLR06 |     	Estimation of soc is simple in coulomb counting|technical|
+|HLR01|Maintains battery in a state in which it can fulfill its functional design requirements                 |Technical|
+|HLR02|Protects the safety of the battery operated devices and detects unsafe operating conditions and responds|Technical|
+|HLR03|Protects cells of battery from damage in abuse/failure cases|technical|
+|HLR04|BMS is to keep track the state of charge (SOC) of the battery|technical|
+ 
 	      
 # Low level requirements
 1.	Use "Coulomb Counting Method" that measures the discharging current of a battery and integrates the discharging current over time in order to estimate SOC. 
-2.	To calculate SOC.
-3.	![image](https://user-images.githubusercontent.com/46984887/153280412-a7354aae-248d-4ba1-8e1c-c96bc611b6d0.png)
+2.		Estimation of soc is simple in coulomb counting
+3.		Prolongs life of battery (normal operating cases)
+4.	To calculate SOC.
+5.	![image](https://user-images.githubusercontent.com/46984887/153280412-a7354aae-248d-4ba1-8e1c-c96bc611b6d0.png)
 # Objectives
 1.	To understand and calculate the SOC (state of charge) of the battery.
 2.	TO develop a mathematical model of the system to obtain the relevant equations.
