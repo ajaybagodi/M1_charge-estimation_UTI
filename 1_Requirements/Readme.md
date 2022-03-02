@@ -1,14 +1,17 @@
-# Description
+# Introduction
 This project deals with a Battery Management system (BMS)are used in many industrial and commercial systems to make the battery operation more efficient and for the estimation to keep the battery state, as long as possible, away from destructive state, to increase battery life time. For this purpose, many monitor techniques are used to monitor the battery state of charge, temperature and current. In the current project, the monitoring system for battery powered electric vehicles (EV) has been implementation tested. This system evaluates and displays the state of charge (SOC) for the considered model battery. The battery information and the obtained results explaining the main characteristics of the system are given by the LCD screen.
 # Reqiurements
+
 # High level requirements
-1.	Maintains battery in a state in which it can fulfill its functional design requirements.
-2.	Protects the safety of the battery operated devices and detects unsafe operating conditions and responds.
-3.	Protects cells of battery from damage in abuse/failure cases.
-4.	Prolongs life of battery (normal operating cases).
-5.	BMS is to keep track the state of charge (SOC) of the battery.
-6.	Estimation of soc is simple in coulomb counting.
-7.	Simple and easy to predict capacity fade and internal resistance increment.
+|  ID  | Description                                                                                                  | Catogary |
+|------|--------|---------|
+|HLR01|     	Maintains battery in a state in which it can fulfill its functional design requirements.                   |Technical|
+| HLR02|	      Protects the safety of the battery operated devices and detects unsafe operating conditions and responds.|Technical|
+	|HLR03|     Protects cells of battery from damage in abuse/failure cases|technical|
+ |HLR04|	      Prolongs life of battery (normal operating cases)|technical|
+ |HLR05|	      BMS is to keep track the state of charge (SOC) of the battery|technical|
+ |HLR06 |     	Estimation of soc is simple in coulomb counting|technical|
+	      
 # Low level requirements
 1.	Use "Coulomb Counting Method" that measures the discharging current of a battery and integrates the discharging current over time in order to estimate SOC. 
 2.	To calculate SOC.
