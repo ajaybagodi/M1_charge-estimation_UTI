@@ -7,8 +7,8 @@ This project deals with a Battery Management system (BMS)are used in many indust
 |------|--------|---------|
 |HLR01|Maintains battery in a state in which it can fulfill its functional design requirements                 |Technical|
 |HLR02|Protects the safety of the battery operated devices and detects unsafe operating conditions and responds|Technical|
-|HLR03|Protects cells of battery from damage in abuse/failure cases|technical|
-|HLR04|BMS is to keep track the state of charge (SOC) of the battery|technical|
+|HLR03|Protects cells of battery from damage in abuse/failure cases|Technical|
+|HLR04|BMS is to keep track the state of charge (SOC) of the battery|Technical|
  
 	      
 # Low level requirements
